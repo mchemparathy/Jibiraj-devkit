@@ -1,0 +1,8 @@
+curl --location 'https://mc2vpm2ky7j9w3skm0xp3b2jhd1y.auth-qa3.marketingcloudqaapis.com/v2/token' \
+--header 'Content-Type: application/json' \
+--data '{
+    "client_id": "nm7s8oish79jbu96p7cu96ul",
+    "client_secret": "yTCeOBVd5SMqUhcIZqu4Mq3S",
+    "grant_type": "client_credentials",
+    "scope": null
+}'
